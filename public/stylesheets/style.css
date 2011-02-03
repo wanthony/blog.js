@@ -25,6 +25,7 @@ html, body {
 	box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 8px 0px;
 	-moz-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 8px 0px;
 	-webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 8px 0px;
+	z-index: 3;
 }
 
 #menu-bar a {

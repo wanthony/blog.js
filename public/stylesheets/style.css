@@ -1,17 +1,69 @@
-body {
-  padding: 50px;
+html, body {
+	height: 100%;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 	background-color: #2A2522;
+	margin: 0px;
+	overflow-x: hidden;
+	display: block;
+	width: 100%;
+}
+
+#menu-bar {
+	background-color: #A33D29;
+	border-bottom-color: rgba(102, 38, 25, 0.5);
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	clear: both;
+	height: 42px;
+	display: block;
+	padding-left: 202px;
+	padding-right: 203px;
+	overflow-x: visible;
+	width: 1365px;
+	line-height: 42px;
+	margin-bottom: 0px;
+	box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 8px 0px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 8px 0px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 8px 0px;
+}
+
+#menu-bar a {
+	color: #fff;
+	line-height: 42px;
+	display: inline-block;
+	padding: 0px 15px;
+	border-left: 2px solid rgba(0, 0, 0, 0);
+	border-right: 2px solid rgba(0, 0, 0, 0);
+}
+
+#menu-bar a:hover {
+	color: #fff;
+	background-color: #7A2E1F;
+	border-left: 2px solid #191919;
+	border-right: 2px solid #191919;
+	line-height: 42px;
+	padding: 0px 15px;
+	display: inline-block;
 }
 
 #content {
 	color: #EAF2D9;
 	background-color: #302D2C;
-	width: 870px;
-	margin-left: 142px;
-	margin-right: 143px;
-	border-left: 1px #191919 solid;
-	border-right: 1px solid #191919;
+	width: 950px;
+	margin-left: 162px;
+	margin-right: 163px;
+	border-left: 2px #191919 solid;
+	border-right: 2px solid #191919;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 30px;
+	overflow-x: visible;
+	display: block;
+	line-height: 24px;
+	box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 8px 0px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 8px 0px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 8px 0px;
+	height: 100%;
 }
